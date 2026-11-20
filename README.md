@@ -6,6 +6,8 @@
 
 **Vice Cover Studio** is a GTA VI-style cover maker: pick from 6 collage layouts, 5 neon grades, and 9 photo treatments per panel, write the title in bold GTA lettering, and export a 1080×1080 PNG. Built for the make.fun "Make GTA 6 Cover Art" bounty.
 
+## Features
+
 - 6 layouts: Vice Grid (2×2), Diagonal Split, Hero + Strip, Single Frame, Nine Grid (3×3), Tilted Snaps (3 polaroids)
 - 5 grades: Vice City Neon, Sunset Boulevard, Leonida Nights, Noir, Palm Gold
 - 9 photo treatments per slot (sunset, duotone, neon, night, gold, noir, comic, halftone, original) plus grain, vignette, and halftone strips
@@ -13,6 +15,13 @@
 - GTA-style lettering: Anton display title (gradient fill, outline, drop shadow), Pacifico neon-script subtitle, Bebas Neue credits — fonts vendored locally, no network
 - Editor: dark premium theme, undo/redo, Shuffle, Reset, live preview
 - Export: 1080×1080, 1080×1350, or 1920×1080 PNG, rendered fresh at the chosen size
+
+## Screenshots
+
+- `screenshots/1-cover.jpg` — finished Vice Grid cover in Vice City Neon, 16:9 crop of the 1920×1080 export.
+- `screenshots/2-editor.jpg` — the editor itself: layout strip, grade picker, per-panel controls, and live preview.
+- `screenshots/3-cover.jpg` — alternate portrait cover at 1080×1350, showing a different layout and grade combination.
+- `screenshots/4-cover.jpg` — the square 1080×1080 export, the default social-ready size.
 
 ## Run it
 
