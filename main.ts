@@ -7,6 +7,10 @@
 // are free to use. Build your own GTA-style cover maker in its place, put your 3 or 4 PNG or JPEG screenshots in
 // screenshots/ (the first by name is the cover) and run it.
 //
+// Vice Cover Studio: the app this entry hands in is a GTA VI-style cover maker — six multi-panel layouts, five
+// neon grades, per-panel photos and treatments, bold Anton lettering and 1080 x 1080 / 1080 x 1350 / 1920 x 1080
+// PNG export — built in app/ in place of Cover Snap.
+//
 // Serve it locally with `node serve.ts`, then open http://localhost:8080.
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts

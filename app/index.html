@@ -3,21 +3,71 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cover Snap</title>
+<title>Vice Cover Studio — GTA VI-style cover maker</title>
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true">★</span>
+    <span class="brand-name">VICE COVER STUDIO</span>
+    <span class="brand-tag">GTA VI-style cover maker · Leonida</span>
+  </div>
+  <div class="top-actions">
+    <button id="shuffle" type="button" class="ghost">⟳ Shuffle</button>
+    <button id="undo" type="button" class="ghost">↩ Undo</button>
+    <button id="redo" type="button" class="ghost">↪ Redo</button>
+    <button id="reset" type="button" class="ghost">Reset</button>
+  </div>
+</header>
 <main class="app">
-  <section class="controls">
-    <h1>Cover Snap</h1>
-    <p>A photo and a caption, made into a square cover.</p>
-    <label>Photo <input id="photo" type="file" accept="image/*"></label>
-    <label>Caption <input id="caption" type="text" maxlength="40" value="Sunset Heist"></label>
-    <button id="export" type="button">Export PNG 1080 x 1080</button>
-    <p id="status" role="status"></p>
+  <aside class="panel controls" aria-label="Cover controls">
+    <section>
+      <h2>1 · Layout</h2>
+      <div id="layoutButtons" class="choices"></div>
+    </section>
+    <section>
+      <h2>2 · Grade</h2>
+      <div id="presetButtons" class="choices"></div>
+    </section>
+    <section>
+      <h2>3 · Size</h2>
+      <div id="sizeButtons" class="segments" role="group" aria-label="Export size"></div>
+    </section>
+    <section>
+      <h2>4 · Words</h2>
+      <label class="field">Title
+        <input id="title" type="text" maxlength="24" value="VICE CITY" autocomplete="off">
+      </label>
+      <label class="field">Subtitle
+        <input id="subtitle" type="text" maxlength="40" value="Sunset Heist" autocomplete="off">
+      </label>
+      <label class="field">Credits
+        <input id="credits" type="text" maxlength="40" value="A LEONIDA STORY" autocomplete="off">
+      </label>
+    </section>
+    <section>
+      <h2>5 · Photos</h2>
+      <p class="hint">Click a panel on the cover to pick it, then tune it here. Your photos stay on your machine — nothing is uploaded.</p>
+      <div id="slotCards"></div>
+    </section>
+    <p class="fineprint">Original fan-style art made with your own photos. Not affiliated with Rockstar Games. Fonts: Anton, Bebas Neue and Pacifico under the SIL Open Font License (see app/fonts/).</p>
+  </aside>
+  <section class="stage">
+    <div class="stage-bar">
+      <span id="sizeLabel">Square · 1080 × 1080</span>
+      <span id="status" role="status">Pick a layout and a grade, then Export PNG.</span>
+    </div>
+    <div class="canvas-wrap">
+      <canvas id="cover" width="1080" height="1080" aria-label="The cover preview"></canvas>
+    </div>
+    <div class="export-bar">
+      <button id="export" type="button">↓ Export PNG</button>
+      <span class="note">Full resolution, ready to post.</span>
+    </div>
   </section>
-  <canvas id="cover" width="1080" height="1080" aria-label="The cover"></canvas>
 </main>
+<input id="fileInput" type="file" accept="image/*" hidden>
 <script type="module" src="./src/main.js"></script>
 </body>
 </html>
