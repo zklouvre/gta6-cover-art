@@ -21,7 +21,7 @@
 - `screenshots/1-cover.jpg` — finished Diagonal Split cover in Vice City Neon, a 1280×720 render of the 1920×1080 wide export.
 - `screenshots/2-editor.jpg` — the editor itself: layout picker, grade picker, and live preview.
 - `screenshots/3-cover.jpg` — alternate portrait cover (Nine Grid in Leonida Nights): a 1024×1280 portrait screenshot file — the portrait export it shows is 1080×1350.
-- `screenshots/4-cover.jpg` — the square 1080×1080 export, the default social-ready size.
+- `screenshots/4-cover.jpg` — Tilted Snaps cover in Palm Gold: the square 1080×1080 export, the default social-ready size.
 
 ## Run it
 
