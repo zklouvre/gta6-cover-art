@@ -10,7 +10,7 @@
 
 - 6 layouts: Vice Grid (2×2), Diagonal Split, Hero + Strip, Single Frame, Nine Grid (3×3), Tilted Snaps (3 polaroids)
 - 5 grades: Vice City Neon, Sunset Boulevard, Leonida Nights, Noir, Palm Gold
-- 9 photo treatments per slot (sunset, duotone, neon, night, gold, noir, comic, halftone, original) plus grain, vignette, and halftone strips
+- 9 photo treatments per slot (sunset, duotone, neon, night, gold, noir, comic, halftone, original), an Auto option that follows the grade, plus grain, vignette, and halftone strips
 - Per-panel controls: sample photos or your own uploads, zoom, position, treatment — click a panel on the cover to select it
 - GTA-style lettering: Anton display title (gradient fill, outline, drop shadow), Pacifico neon-script subtitle on the bright grades (letterspaced Bebas capitals on Noir and Leonida Nights), Bebas Neue credits — fonts vendored locally, no network
 - Editor: dark premium theme, undo/redo, Shuffle, Reset, live preview
@@ -19,7 +19,7 @@
 ## Screenshots
 
 - `screenshots/1-cover.jpg` — finished Diagonal Split cover in Vice City Neon, a 1280×720 render of the 1920×1080 wide export.
-- `screenshots/2-editor.jpg` — the editor itself: layout strip, grade picker, per-panel controls, and live preview.
+- `screenshots/2-editor.jpg` — the editor itself: layout picker, grade picker, and live preview.
 - `screenshots/3-cover.jpg` — alternate portrait cover (Nine Grid in Leonida Nights): a 1024×1280 portrait screenshot file — the portrait export it shows is 1080×1350.
 - `screenshots/4-cover.jpg` — the square 1080×1080 export, the default social-ready size.
 
